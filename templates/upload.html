@@ -1,0 +1,28 @@
+<html>
+    <head>
+         <link rel="stylesheet" href="../static/app.css">
+    </head>
+   <body>
+     <div align="center">
+         <h2>Count Word Frequencies</h2>
+         <p>
+         {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <ul class=flashes>
+            {% for message in messages %}
+              <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        {% endwith %}
+
+      <form class="formClass" action = "http://localhost:5000/document" method = "POST"
+         enctype = "multipart/form-data">
+
+         <input type = "file"  name = "file"  id="fileButton"/>
+         <input type = "submit" value="Get Count"  id="submitButton"/>
+
+      </form>
+         </div>
+   </body>
+</html>

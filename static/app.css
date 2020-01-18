@@ -1,0 +1,70 @@
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width:50%;
+}
+
+ td, th {
+  border: 1px solid black;
+  text-align:Center;
+  font-family: Calibri;
+}
+th
+{
+  background-color: Tomato;
+  color: white;
+}
+h2
+{
+  text-align: center;
+  text-transform: uppercase;
+  color: Tomato;
+}
+
+.formClass
+{
+ font-family: Calibri;
+ font-size: large;
+}
+
+#fileButton
+{
+  border: 1px;
+  color: black;
+  font-weight:Bold;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#submitButton
+{
+  background-color: tomato;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#fileButtonFrequencies
+{
+  border: 1px;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
+  margin: 4px 2px;
+  cursor: pointer;
+}
