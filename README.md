@@ -1,7 +1,7 @@
 ## word-count
 A flask based app to count the frequency of words in the given text.
 
-###Steps to run:
+### Steps to run:
 1. Clone the repository
 2. cd into the directory
 3. `python3 app.py`
